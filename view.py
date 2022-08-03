@@ -63,12 +63,13 @@ def init_control_panel():
 
 def fill_main_table(str_pattern=''):
 
-    global main_table
-    i = 0
-    data = ctrl.get_data_from_database(str_pattern)
-    for elem in data:
-        main_table.insert('',i,values=elem)
-        i += 1
+    # global main_table
+    # i = 0
+    # data = ctrl.get_data_from_database(str_pattern)
+    # for elem in data:
+    #     main_table.insert('',i,values=elem)
+    #     i += 1
+    pass
 
 
 def init(logger_in):

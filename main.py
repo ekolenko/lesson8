@@ -9,5 +9,3 @@ logger = log.Log('foo.log')
 
 
 view.init(logger)
-
-logger.get_event('Hello world!')
